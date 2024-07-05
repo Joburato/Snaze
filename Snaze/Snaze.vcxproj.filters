@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Levels">
+      <UniqueIdentifier>{133ef795-86c6-4721-8ada-8278fbf5dfcd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\maze.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="snake_game.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\maze.h">
+      <Filter>Arquivos de Origem</Filter>
+    </ClInclude>
+    <ClInclude Include="snake_game.h">
+      <Filter>Arquivos de Origem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\levels\assets\big_race.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_3_zeros.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_5_zeros.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_5_zeros_h.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_5_zeros_h_problem.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_die.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_horizontal.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_horizontal_backdor.data">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_test.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level_test2.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level0.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level1.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level2.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level3.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level4.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level5.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level6.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\level7.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\levels.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\levels_2.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\levels_problem.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\test.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\levels\assets\zerao.dat">
+      <Filter>Arquivos de Origem\Levels</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-graphics-d-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-network-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-network-d-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-system-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-system-d-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-window-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-window-d-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\openal32.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-audio-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-audio-d-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="..\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\bin\sfml-graphics-2.dll">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+  </ItemGroup>
+</Project>

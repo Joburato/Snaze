@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\DEV\Snaze\maze.h(63,54): warning C4267: 'return': conversão de 'size_t' para 'int', possível perda de dados
+C:\DEV\Snaze\maze.h(64,52): warning C4267: 'return': conversão de 'size_t' para 'int', possível perda de dados
+  Snaze.vcxproj -> C:\DEV\Snaze\Snaze\x64\Debug\Snaze.exe
